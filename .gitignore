@@ -1,0 +1,17 @@
+.idea/
+.idea_ancienne/
+.idea_sauvegarde/
+.vscode/
+/coverage/
+/vendor/
+/logs/*
+!/logs/README.md
+/var/
+.phpunit.result.cache
+
+# Identifiants et secrets
+.env
+.env.*
+!.env.example
+*.key
+*.pem
